@@ -1,0 +1,22 @@
+{
+  "name": "tally-book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohammadNomankhan/tally-book.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohammadNomankhan/tally-book/issues"
+  },
+  "homepage": "https://github.com/MohammadNomankhan/tally-book#readme",
+  "dependencies": {
+    "pattern.css": "^1.0.0"
+  }
+}

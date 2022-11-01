@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tally Book - Save your bookmarks</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/pattern.css" rel="stylesheet">
+</head>
+<body class="pattern-grid-xl">
+
+    <!-- show modal -->
+    <h1 class="modal-header" id="showModal">Add Bookmark</h1>
+
+    <!-- bookmarks -->
+    <div class="container" id="container">
+        <div class="container__item" id="containerItem">
+            <i class="fas fa-times"></i>
+            <div class="container__bookmark" id="containerBookmark">
+                <img src="favicon.png" alt="favicon">
+                <a href="http://zerotomastery.io" target="_blank">Zero to Mastery</a>
+            </div>
+        </div>
+
+        <div class="container__item" id="containerItem">
+            <i class="fas fa-times"></i>
+            <div class="container__bookmark" id="containerBookmark">
+                <img src="favicon.png" alt="favicon">
+                <a href="http://zerotomastery.io" target="_blank">Zero to Mastery</a>
+            </div>
+        </div>
+
+        <div class="container__item" id="containerItem">
+            <i class="fas fa-times"></i>
+            <div class="container__bookmark" id="containerBookmark">
+                <img src="favicon.png" alt="favicon">
+                <a href="http://zerotomastery.io" target="_blank">Zero to Mastery</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal -->
+    <div class="modal-container" id="modal-container">
+        <div class="modal">
+            <i class="fas fa-times close-icon" id="closeIcon"></i>
+
+            <!-- modal header and body -->
+            <div class="modal__header">
+                <h3>Add Bookmark</h3>
+            </div>
+            <div class="modal__body">
+                <form id="modal__form">
+                    <!-- website name -->
+                    <div class="modal__input--name">
+                        <label for="website-name">Website Name</label>
+                        <input type="text" id="website-name">
+                    </div>
+                    <!-- website URL -->
+                    <div class="modal__input--url">
+                        <label for="website-url">Website URL</label>
+                        <input type="text" id="website-url">
+                    </div>
+                    <button type="submit" class="modal__save" id="modal__save">save</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
